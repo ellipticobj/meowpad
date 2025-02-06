@@ -10,3 +10,10 @@ from kmk.extensions.peg_oled_display import Oled, OledDisplayMode, OledData
 from kmk.handlers.stock import simple_key_sequence
 
 keyboard = KMKKEYBOARD()
+
+# key matrix
+keyboard.matrix = MatrixScanner(
+    cols=[board.GP27, board.GP28, board.GP29],
+    rows=[board.GP02, board.GP01],
+    diod_orientation=DiodeOrientation.COL2ROW
+)
