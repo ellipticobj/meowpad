@@ -17,3 +17,9 @@ keyboard.matrix = MatrixScanner(
     rows=[board.GP02, board.GP01],
     diod_orientation=DiodeOrientation.COL2ROW
 )
+
+# rotary encoder
+encoder = rotaryio.IncrementalEncoder(board.GP03, board.GP04)
+encoderswitch = digitalio.DigitalInOut(board.GP12)
+encoderswitch.direction = digitalio.Direction.INPUT
+encoderswitch.pull = digitalio.Pull.UP
