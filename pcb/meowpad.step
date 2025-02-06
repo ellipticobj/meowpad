@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('meowpad.step','2025-02-05T16:15:03',('Pcbnew'),('Kicad'),
+FILE_NAME('meowpad.step','2025-02-06T22:20:57',('Pcbnew'),('Kicad'),
   'Open CASCADE STEP processor 7.8','KiCad to STEP converter','Unknown'
   );
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
@@ -3006,7 +3006,8 @@ SHAPE_REPRESENTATION_RELATIONSHIP() );
 #2112 = PRODUCT_DEFINITION_SHAPE('','',#2113);
 #2113 = PRODUCT_DEFINITION('design','',#2114,#2117);
 #2114 = PRODUCT_DEFINITION_FORMATION('','',#2115);
-#2115 = PRODUCT('meowpad_PCB','meowpad_PCB','',(#2116));
+#2115 = PRODUCT('_autosave-meowpad_PCB','_autosave-meowpad_PCB','',(
+    #2116));
 #2116 = PRODUCT_CONTEXT('',#2,'mechanical');
 #2117 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #2118 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#2119),#4972);
